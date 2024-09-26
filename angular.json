@@ -15,7 +15,7 @@
           "options": {
             "outputPath": "dist/dev.code",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+          "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -82,6 +82,7 @@
               {
                 "glob": "**/*",
                 "input": "public"
+
               }
             ],
             "styles": [

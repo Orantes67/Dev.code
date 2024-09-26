@@ -7,26 +7,23 @@
         <li><a href="#">Comparacion</a></li>
       </ul>
     </nav>
-    
+
     <section class="hero">
       <div class="hero-content">
         <h1>Code.<br>dev</h1>
         <button class="cta-button">más ↓</button>
       </div>
       <div class="hero-image">
-        <!-- Replace with actual SVG or image -->
-        <img src="/public/Imagen-figura.jpg" alt="no cargo">
-        
-        
-        
-        
+
+        <img [src]="dev[0].imagen" alt="Imagen" />
+
       </div>
     </section>
-    
+
     <section class="dashboard-preview">
-      <img src="/public/dashboart.png" alt="no cargo" />
+      <img [src]="dev[1].imagen" alt="Dashboard" />
     </section>
-    
+
     <section class="info-section">
       <h2>Descubre el Futuro de la Web con Nosotros</h2>
       <div class="info-columns">
@@ -50,7 +47,7 @@
         Empieza hoy a construir el futuro de tu negocio con soluciones web a la medida.
       </p>
     </section>
-    
+
     <footer>
       <div class="footer-content">
         <p>Redes sociales</p>

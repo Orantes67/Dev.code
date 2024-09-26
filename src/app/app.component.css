@@ -1,5 +1,5 @@
+
 .landing-page {
-    font-family: Arial, sans-serif;
     color: #333;
     max-width: 1200px;
     margin: 0 auto;
@@ -95,6 +95,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    
   }
 
   .social-icons a {
